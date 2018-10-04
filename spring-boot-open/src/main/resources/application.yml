@@ -1,0 +1,70 @@
+server:
+    port: 9080
+    servlet:
+      context-path: /v1
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    o.s.web.client.RestTemplate : ERROR
+    com.sendoa.opendata: DEBUG
+  file: logs/application.log
+
+opendata.host: http://opendata-ajuntament.barcelona.cat/data/api/3/action/package_search
+
+info:
+  artifact: spring-boot-opendata
+  name: Spring Boot Opendata
+  description: Spring Boot Opendata
+  version: 1.0.0
+
+management:
+  health:
+    diskspace:
+      enabled: true
+    details:
+      enabled: true
+    application:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      datadog:
+        enabled: false
+
+spring:
+  security:
+    ignored: /**
+    enabled: false
+  boot:
+    admin:
+      client:
+        username: admin
+        password: admin
+        enabled: true
+        autoRegistration: true
+        url: http://localhost:9001
+        instance:
+          name: 'Spring opendata sendoa'
+          service-url: http://localhost:9080/
+          service-base-url: http://localhost:9080/
+
+  profiles.active: dev
+  output:
+    ansi:
+      enabled: ALWAYS
+  metrics:
+    simple:
+      enabled: true
+    statsd:
+      enabled: true
+    web:
+      server:
+        auto-time-requests: true
