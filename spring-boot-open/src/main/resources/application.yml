@@ -29,6 +29,20 @@ management:
   endpoint:
     health:
       show-details: always
+    shutdown:
+      enabled: true
+    liquibase:
+      enable: false
+    dump:
+      enable: false
+    trace:
+      enable: false
+    flyway:
+      enable: false
+    jolokia:
+      enable: false
+    liquibase:
+      enable: false
   endpoints:
     web:
       base-path: /
