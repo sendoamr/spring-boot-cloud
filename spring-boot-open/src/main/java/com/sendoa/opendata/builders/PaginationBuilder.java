@@ -1,7 +1,7 @@
 package com.sendoa.opendata.builders;
 
-import com.sendoa.opendata.model.Links;
-import com.sendoa.opendata.model.Pagination;
+import com.sendoa.opendata.model.response.Links;
+import com.sendoa.opendata.model.response.Pagination;
 
 public final class PaginationBuilder {
 
@@ -35,10 +35,12 @@ public final class PaginationBuilder {
 
 
     public Pagination build() {
+        //Create link variables
         final Links links = new Links();
         final Integer numPages = pagination.getTotal() / pagination.getPageSize();
         final Integer pageKey = pagination.getPage();
 
+        //Set the link pagination
         links.setFirstPage(String.format(OPEN_DATA_URI, 1, pagination.getPageSize()).concat(queryParms));
         links.setLastPage(String.format(OPEN_DATA_URI, numPages, pagination.getPageSize()).concat(queryParms));
         links.setNext(String.format(OPEN_DATA_URI, (pageKey < numPages ? (pageKey+1) : numPages), pagination.getPageSize()).concat(queryParms));
@@ -46,6 +48,7 @@ public final class PaginationBuilder {
         pagination.setLinks(links);
         pagination.setNumPages(numPages);
 
+        //return formate pagination node
         return pagination;
     }
 

@@ -1,5 +1,5 @@
 {
-  "uri": "http://fake-host/data/api/3/action/package_search?code=NOT-EXISTS",
+  "uri": "http://fake-host/data/api/3/action/package_search?fq=code:NOT-EXISTS",
   "method": "GET",
   "body": {
     "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",

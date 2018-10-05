@@ -15,6 +15,7 @@ public class SecurityConfig {
         return http.build();
     }
 
+
     @Bean
     public RestTemplate restTemplate() {
         RestTemplate restTemplate = new RestTemplate();

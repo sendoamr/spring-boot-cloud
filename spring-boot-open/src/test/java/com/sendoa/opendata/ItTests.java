@@ -51,13 +51,20 @@ public class ItTests {
     protected RestTemplate restTemplate;
     protected MockRestServiceServer mockOpenServer;
 
+    /**
+     * Principal method that loop resources and launch the dynamic tests
+     */
+    @DisplayName("Open data json dynamic test")
     @TestFactory
     Iterable<DynamicTest> dynamicJsonTests() throws IOException {
         List<DynamicTest> testsToRun = new ArrayList();
-        Iterator var2 = this.getTestFiles().iterator();
+        Iterator testJsonFiles = getTestFiles().iterator();
 
-        while(var2.hasNext()) {
-            String test = (String)var2.next();
+        //Loop all json in folder test and launch test
+        while(testJsonFiles.hasNext()) {
+            String test = String.valueOf(testJsonFiles.next());
+
+            //Get data to launch test and request and launch the test
             TestData serviceRequest = om.readValue(new File(ItTests.class.getResource(String.format("/tests/%s", test)).getFile()), TestData.class);
             testsToRun.add(DynamicTest.dynamicTest(serviceRequest.getTitle(), () -> testService(test, serviceRequest)));
         }
@@ -66,18 +73,22 @@ public class ItTests {
     }
 
     private void testService(String fileToCheck, TestData testData) throws Exception {
+        //Get mock json file if is necessary and load the data
         URL mockUri = ItTests.class.getResource(String.format("/mock/%s", fileToCheck));
         MockData mockData = null;
         if (mockUri != null) {
             mockData = om.readValue(new File(mockUri.getFile()), MockData.class);
         }
 
+        //Load the response json file data
         ResponseData responseData = om.readValue(new File(ItTests.class.getResource(String.format("/responses/%s", fileToCheck)).getFile()), ResponseData.class);
 
+        //Call to service with mock and check the status response
         this.callServiceMockAndCheck(testData, mockData, responseData);
     }
 
     private void callServiceMockAndCheck(TestData testData, MockData mockData, ResponseData responseData) throws Exception {
+        //If test need mock load the data and inject mock in the restTemplate call
         if (mockData != null) {
             mockOpenServer = MockRestServiceServer.bindTo(restTemplate).build();
             ResponseCreator response = MockRestResponseCreators.withSuccess(om.writeValueAsString(mockData.getBody()), MediaType.APPLICATION_JSON);
@@ -85,10 +96,12 @@ public class ItTests {
             mockOpenServer.expect(MockRestRequestMatchers.requestTo(uri)).andExpect(MockRestRequestMatchers.method(HttpMethod.resolve(mockData.getMethod()))).andRespond(response);
         }
 
+        //Request to the service with test data and check status
         byte[] response = webTestClient.method(HttpMethod.valueOf(testData.getMethod())).uri(testData.getUri()).exchange()
                 .expectStatus().isEqualTo(responseData.getStatus())
                 .expectBody().returnResult().getResponseBody();
 
+        //If response expected body is compete check it
         if (responseData.getBody() != null) {
             checkResponse(om.writeValueAsString(responseData.getBody()), new String(response, StandardCharsets.UTF_8));
         }
@@ -103,17 +116,17 @@ public class ItTests {
 
     }
 
+    /**
+     * Find all json files in the test folder and retuirn filenames
+     */
     private List<String> getTestFiles() throws IOException {
         List<String> tests = new ArrayList();
         ClassLoader cl = this.getClass().getClassLoader();
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver(cl);
-        Resource[] resources = resolver.getResources("classpath*:/tests/*.json");
-        Resource[] var5 = resources;
-        int var6 = resources.length;
+        Resource[] testsJsons = resolver.getResources("classpath*:/tests/*.json");
 
-        for(int var7 = 0; var7 < var6; ++var7) {
-            Resource resource = var5[var7];
-            tests.add(resource.getFilename());
+        for(int iterator = 0; iterator < testsJsons.length; iterator++) {
+            tests.add(testsJsons[iterator].getFilename());
         }
 
         return tests;

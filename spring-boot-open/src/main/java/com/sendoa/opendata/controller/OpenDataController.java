@@ -25,8 +25,8 @@ public class OpenDataController {
     @Autowired
     private OpenDataService service;
 
-    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<ResponseModel> getData(@RequestParam(defaultValue = "1") @Valid @Min(1) Integer pageKey,
+    @GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public ResponseEntity<ResponseModel> findPackages(@RequestParam(defaultValue = "1") @Valid @Min(1) Integer pageKey,
                                      @RequestParam(defaultValue = "10") @Valid @Min(1) @Max(30) Integer pageSize,
                                      @RequestParam(defaultValue = "code") String sort,
                                      @RequestParam(defaultValue = "asc") String direction) {
@@ -36,7 +36,7 @@ public class OpenDataController {
     }
 
     @GetMapping(value = "/{code}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<Model> getOneData(@PathVariable String code) {
+    public ResponseEntity<Model> findPackage(@PathVariable String code) {
         logger.debug("Get open data with Id {}", code);
         Model dataModel = service.findOne(code);
         return new ResponseEntity<>(dataModel, dataModel == null ? HttpStatus.NOT_FOUND : HttpStatus.OK);

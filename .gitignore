@@ -1,0 +1,3 @@
+target/
+spring-boot-admin/target/
+logs/

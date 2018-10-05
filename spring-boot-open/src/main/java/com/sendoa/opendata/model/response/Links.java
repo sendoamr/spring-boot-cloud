@@ -1,4 +1,4 @@
-package com.sendoa.opendata.model;
+package com.sendoa.opendata.model.response;
 
 import lombok.Data;
 import lombok.Getter;

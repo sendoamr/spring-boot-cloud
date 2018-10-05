@@ -1,5 +1,5 @@
 {
-  "uri": "http://fake-host/data/api/3/action/package_search?code=infraestructures-inventari-inscripcions",
+  "uri": "http://fake-host/data/api/3/action/package_search?fq=code:infraestructures-inventari-inscripcions",
   "method": "GET",
   "body": {
     "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",

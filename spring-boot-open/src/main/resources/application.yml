@@ -5,7 +5,7 @@ server:
 
 logging:
   level:
-    org.springframework.web: DEBUG
+    org.springframework:
     o.s.web.client.RestTemplate : ERROR
     com.sendoa.opendata: DEBUG
   file: logs/application.log

@@ -1,33 +1,35 @@
-#Build and run the app with maven
+#Build and run the microservice with maven
 
 ```bash
 mvn clean install
-java -jar target/webflux-demo-0.0.1-SNAPSHOT.jar
+java -jar target/spring-boot-open-1.0.0.jar
 ```
-
-#profiles
-default: launch only the service
-cloud: should launch fisrt spring-boot-admin
-
 The server will start at <http://localhost:9080>.
 
-#Run in docker the app with maven
-Read first registry steps
+#Register and build docker image of microservice
+Read registry folder steps to launch a registry local.
+```
 mvn clean install docker:build
-docker run localhost:5000/sendoa-boot
+docker run localhost:5000/spring-boot-open
+```
+
+## Run Junit5 tests
+```
+mvn test
+```
 
 ## Rest APIs doc
 
 The application defines following REST APIs
 
 ```
-GET /v1/data - Get All data
+GET /api/v1/packages - Get All data
 Posible query params
 	- pageKey: num of page selected
 	- pageSize: max 30 register for page
 	- sort: sort field
 	- direction: asc or dec
 
-GET /v1/data/{id} - Get All data
+GET /v1/packages/{id} - Get One package data
 
 ```

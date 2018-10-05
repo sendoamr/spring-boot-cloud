@@ -2,10 +2,9 @@ package com.sendoa.opendata.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sendoa.opendata.configuration.Config;
-import com.sendoa.opendata.configuration.RestTemplateErrorHandler;
 import com.sendoa.opendata.error.ApplicationException;
 import com.sendoa.opendata.model.ResponseModel;
-import com.sendoa.opendata.model.ResultModel;
+import com.sendoa.opendata.model.open.ResultModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +20,7 @@ public class OpenDataService {
 
     private static Logger logger = LoggerFactory.getLogger(OpenDataService.class);
     public static final String QUERY_PARAMS_EXPRESSION = "?rows=%s&start=%s&sort=%s %s";
-    public static final String FIND_ONE__EXPRESSION = "?code=%s";
+    public static final String FIND_ONE__EXPRESSION = "?fq=code:%s";
     private static final ObjectMapper om = new ObjectMapper();
 
     @Autowired

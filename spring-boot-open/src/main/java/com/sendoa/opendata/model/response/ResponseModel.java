@@ -1,6 +1,7 @@
 package com.sendoa.opendata.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.sendoa.opendata.model.response.Pagination;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;

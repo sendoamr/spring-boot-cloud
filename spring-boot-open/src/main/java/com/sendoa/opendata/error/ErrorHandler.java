@@ -1,6 +1,7 @@
 package com.sendoa.opendata.error;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -11,13 +12,13 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
-import java.util.Collections;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @ControllerAdvice
 @Component
 public class ErrorHandler {
+
     @ExceptionHandler
     @ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -32,11 +33,16 @@ public class ErrorHandler {
     @ExceptionHandler
     @ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public Map handle(ConstraintViolationException exception) {
-        return error(exception.getConstraintViolations()
-                .stream()
-                .map(ConstraintViolation::getMessage)
-                .collect(Collectors.toList()));
+    public ResponseEntity<Object> handle(ConstraintViolationException exception) {
+        //Get all contranint violantions and add to map
+        Map<String, String> errors = new HashMap<>();
+        for (ConstraintViolation<?> violation : exception.getConstraintViolations()) {
+            errors.put(violation.getPropertyPath().toString(), violation.getMessage());
+        }
+
+        // Return map of field/error
+        return new ResponseEntity(
+                errors, HttpStatus.BAD_REQUEST);
     }
 
     private Map error(Object message) {

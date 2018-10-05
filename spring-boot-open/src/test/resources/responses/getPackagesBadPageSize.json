@@ -1,4 +1,4 @@
 {
   "status": 400,
-  "body": {"error":["tiene que ser menor o igual que 30"]}
+  "body": {"findPackages.pageSize": "tiene que ser menor o igual que 30"}
 }

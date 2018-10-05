@@ -7,9 +7,6 @@ import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.sendoa.opendata.model.Model;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.IOException;
 
