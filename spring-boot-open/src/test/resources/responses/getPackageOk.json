@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "body": {
+    "code": "infraestructures-inventari-inscripcions",
+    "description": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+    "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+    "organization": "Town planning and Infrastructures"
+  }
+}

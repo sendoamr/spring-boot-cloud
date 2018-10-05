@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +16,7 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/api/v1/packages")
 @Validated
 public class OpenDataController {
 
@@ -24,7 +25,7 @@ public class OpenDataController {
     @Autowired
     private OpenDataService service;
 
-    @GetMapping(value = "/data", produces = "application/json")
+    @GetMapping(value = "", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<ResponseModel> getData(@RequestParam(defaultValue = "1") @Valid @Min(1) Integer pageKey,
                                      @RequestParam(defaultValue = "10") @Valid @Min(1) @Max(30) Integer pageSize,
                                      @RequestParam(defaultValue = "code") String sort,
@@ -34,7 +35,7 @@ public class OpenDataController {
 
     }
 
-    @GetMapping(value = "/data/{id}", produces = "application/json")
+    @GetMapping(value = "/{code}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<Model> getOneData(@PathVariable String code) {
         logger.debug("Get open data with Id {}", code);
         Model dataModel = service.findOne(code);

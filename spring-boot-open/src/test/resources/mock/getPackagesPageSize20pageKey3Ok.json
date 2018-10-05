@@ -1,0 +1,2328 @@
+{
+  "uri": "http://fake-host/data/api/3/action/package_search?rows=20&start=39&sort=code%20asc",
+  "method": "GET",
+  "body": {
+    "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",
+    "success": true,
+    "result": {
+      "count": 451,
+      "sort": "fecha_publicacion desc",
+      "facets": {},
+      "results": [
+        {
+          "notes_translated": {
+            "ca": "Inventari de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona. Les inscripcions de senyalització horitzontal sense informació de barri i districte corresponen a ubicacions limítrofes de la ciutat.",
+            "en": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+            "es": "Inventario de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona. Las inscripciones de señalización vertical sin información de barrio y districto corresponden a ubicaciones limítrofes de la ciudad."
+          },
+          "geolocation": "Yes_with_map_view",
+          "code": "infraestructures-inventari-inscripcions",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "2af611c8-b51a-4503-9a3f-09967b122824",
+          "title_translated": {
+            "ca": "Inventari de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+            "es": "Inventario de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T16:02:52.870298",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "2af611c8-b51a-4503-9a3f-09967b122824",
+              "datastore_active": true,
+              "id": "947e353a-97cf-46a3-ad09-002420dbada5",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "middle",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_Inventari_Inscripcions.csv",
+              "created": "2018-09-28T12:43:13.479799",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_Inventari_Inscripcions.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:54.130010', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-29T02:05:56.048034', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "1204e60b-42fe-4611-b243-9b24f5b9869f",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Inscripcions",
+              "id": "99ef9ec1-e5e3-45ce-8b18-1bb35cc383f3",
+              "name": "Inscripcions"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            }
+          ],
+          "fecha_publicacion": "2018-10-04",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-inventari-inscripcions",
+          "url": null,
+          "notes": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Mobilitat,Infraestructura,Inscripcions",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+          "revision_id": "19e75195-7914-4d67-ae8f-9bb79884a5e3",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ID_Inscripcions",
+              "value": "Codi numèric identificador de la inscripció"
+            },
+            {
+              "key": "02.Codi_Inscripció",
+              "value": "Codi de la tipologia de la inscripció. Veure relació a __[Tipologia de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/infraestructures-tipologia-inscripcions)__"
+            },
+            {
+              "key": "03.Codi_Districte",
+              "value": "Codi del districte de la ubicació de la inscripció"
+            },
+            {
+              "key": "04.Nom_Districte",
+              "value": "Nom del districte de la ubicació de la inscripció"
+            },
+            {
+              "key": "05.Codi_Barri",
+              "value": "Codi del barri de la ubicació de la inscripció"
+            },
+            {
+              "key": "06.Nom_Barri",
+              "value": "Nom del barri de la ubicació de la inscripció"
+            },
+            {
+              "key": "07.X_ETRS89",
+              "value": "Coordenada X en ETRS89"
+            },
+            {
+              "key": "08.Y_ETRS89",
+              "value": "Coordenada Y en ETRS89"
+            },
+            {
+              "key": "09.Longitud",
+              "value": "Coordenada geogràfica de longitud"
+            },
+            {
+              "key": "10.Latitud",
+              "value": "Coordenada geogràfica de latitud"
+            },
+            {
+              "key": "11.Desc_Marca_Vial",
+              "value": "Descripció de la marca vial"
+            },
+            {
+              "key": "12.Codi_Desc_Color",
+              "value": "Codi del color de la inscripció"
+            },
+            {
+              "key": "13.Data_Alta",
+              "value": "Data d'alta a la xarxa"
+            },
+            {
+              "key": "14.Data_Baixa",
+              "value": "Data de baixa de la xarxa"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Inventari dels passos de vianants de la xarxa d'infraestructures de la ciutat de Barcelona. Els passos de vianants sense informació de barri i districte corresponen a ubicacions limítrofes de la ciutat.",
+            "en": "Inventory of the pedestrian crossings in the infrastructure network of the city of Barcelona. The pedestrian crossings without neighbourhood and district information belong to bordering ubications of the city.",
+            "es": "Inventario de los pasos de peatones de la red de infraestructuras de la ciudad de Barcelona. Los pasos de peatones sin información de barrio y districto corresponden a ubicaciones limítrofes de la ciudad."
+          },
+          "geolocation": "Yes_with_map_view",
+          "code": "infraestructures-inventari-pas-vianants",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "773debdd-f739-46d2-b127-2d9e32b4477c",
+          "title_translated": {
+            "ca": "Inventari dels passos de vianants de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Inventory of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+            "es": "Inventario de los pasos de peatones de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T15:50:17.162206",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "773debdd-f739-46d2-b127-2d9e32b4477c",
+              "datastore_active": true,
+              "id": "5cd64615-8f97-464c-a43a-7b98b464e0b1",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "middle",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_Inventari_Pas_Vianants.csv",
+              "created": "2018-09-28T10:30:28.151286",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_Inventari_Pas_Vianants.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:54.526625', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-29T02:05:56.427902', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "322fc4b5-7a51-437d-99dd-d3c3b97a42a8",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Pas vianants",
+              "id": "9fc25d7b-5e91-4a26-af12-f839fe4999c5",
+              "name": "Pas vianants"
+            }
+          ],
+          "fecha_publicacion": "2018-10-04",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-inventari-pas-vianants",
+          "url": null,
+          "notes": "Inventory of the pedestrian crossings in the infrastructure network of the city of Barcelona. The pedestrian crossings without neighbourhood and district information belong to bordering ubications of the city.",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Mobilitat,Infraestructura,Pas vianants",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Inventory of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+          "revision_id": "8b86088b-4c1b-46e2-90c6-3de4c12b1599",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ID_Pas",
+              "value": "Codi identificador del pas de vianants"
+            },
+            {
+              "key": "02.Codi_Pas",
+              "value": "Codi de la tipologia del pas de vianants. Veure relació a __[Tipologia dels passos de vianants de la xarxa d'infraestructures de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/infraestructures-tipologia-pas-vianants)__"
+            },
+            {
+              "key": "03.M2_Pas",
+              "value": "Metres quadrats del pas de vianants"
+            },
+            {
+              "key": "04.Codi_Districte",
+              "value": "Codi del districte de la ubicació del pas de vianants"
+            },
+            {
+              "key": "05.Nom_Districte",
+              "value": "Nom del districte de la ubicació del pas de vianants"
+            },
+            {
+              "key": "06.Codi_Barri",
+              "value": "Codi del barri de la ubicació del pas de vianants"
+            },
+            {
+              "key": "07.Nom_Barri",
+              "value": "Nom del barri de la ubicació del pas de vianants"
+            },
+            {
+              "key": "08.Longitud",
+              "value": "Coordenada geogràfica de longitud"
+            },
+            {
+              "key": "09.Latitud",
+              "value": "Coordenada geogràfica de latitud"
+            },
+            {
+              "key": "10.X_ETRS89",
+              "value": "Coordenada X en ETRS89"
+            },
+            {
+              "key": "11.Y_ETRS89",
+              "value": "Coordenada Y en ETRS89"
+            },
+            {
+              "key": "12.Data_Alta",
+              "value": "Data d'alta a la xarxa"
+            },
+            {
+              "key": "13.Data_Baixa",
+              "value": "Data de baixa de la xarxa"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Tipologia de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "geolocation": "No",
+          "code": "infraestructures-tipologia-inscripcions",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "Yes",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "93d33831-a891-4f1f-a73b-ec5b163a3bd4",
+          "title_translated": {
+            "ca": "Tipologia de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T10:34:49.276098",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "93d33831-a891-4f1f-a73b-ec5b163a3bd4",
+              "datastore_active": true,
+              "id": "74aa2b77-7700-4e29-a557-ff8a24351696",
+              "size": null,
+              "state": "active",
+              "api_access_number": "0",
+              "api_access_number_absolute": "0",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_M_Inscripcions.csv",
+              "created": "2018-10-03T10:45:16.107814",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_M_Inscripcions.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "none",
+              "qa": "{'updated': '2018-10-04T02:05:56.607391', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-10-04T02:05:56.609895', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "81917db3-e324-4b3f-b1f2-db031a71ecbb",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Inscripcions",
+              "id": "99ef9ec1-e5e3-45ce-8b18-1bb35cc383f3",
+              "name": "Inscripcions"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            }
+          ],
+          "fecha_publicacion": "2018-10-04",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-tipologia-inscripcions",
+          "url": null,
+          "notes": "Typology of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Mobilitat,Infraestructura,Inscripcions",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Typology of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+          "revision_id": "65f56c11-425a-48aa-9107-5739ba7a127c",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.Codi_Inscripció",
+              "value": "Codi de la tipologia de la inscripció de senyalització horitzontal"
+            },
+            {
+              "key": "02.Descripció_Inscripció",
+              "value": "Descripció de la tipologia de la inscripció de senyalització horitzontal"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Tipologia dels passos de vianants de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de los pasos de peatones de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "geolocation": "No",
+          "code": "infraestructures-tipologia-pas-vianants",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "Yes",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "cbc6825d-0de2-4b74-b07e-3fe79af99146",
+          "title_translated": {
+            "ca": "Tipologia dels passos de vianants de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de los pasos de peatones de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T11:17:32.163933",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "cbc6825d-0de2-4b74-b07e-3fe79af99146",
+              "datastore_active": true,
+              "id": "d373d64c-3dd9-4cf1-b22d-a2d114cd1f0d",
+              "size": null,
+              "state": "active",
+              "api_access_number": "0",
+              "api_access_number_absolute": "0",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_M_Pas_Vianants.csv",
+              "created": "2018-10-03T11:27:00.687342",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_M_Pas_Vianants.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "none",
+              "qa": "{'updated': '2018-10-04T02:05:56.907267', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-10-04T02:05:56.910314', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "e2b8f8c5-7829-42c5-ae4c-feda9c455c66",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Pas vianants",
+              "id": "9fc25d7b-5e91-4a26-af12-f839fe4999c5",
+              "name": "Pas vianants"
+            }
+          ],
+          "fecha_publicacion": "2018-10-04",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-tipologia-pas-vianants",
+          "url": null,
+          "notes": "Typology of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Mobilitat,Infraestructura,Pas vianants",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Typology of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+          "revision_id": "1a0131b8-5c38-4c5e-8d28-f4d0574099f9",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.Codi",
+              "value": "Codi de la tipologia de pas de vianants"
+            },
+            {
+              "key": "02.Descripció",
+              "value": "Descripció de la tipologia de pas de vianants"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Dades relatives a les places amb punts de recàrrega per a vehicles elèctrics als aparcaments de B:SM i la seva disponibilitat.",
+            "en": "Data regarding the places with electric vehicle charging points at B:SM car parks and its availability.",
+            "es": "Datos relativos a las plazas con punto de carga para vehículos eléctricos en los aparcamientos de B:SM y su disponibilidad."
+          },
+          "geolocation": "Yes_no_map_view",
+          "code": "Estat_Punts_Recarrega_VE",
+          "url_tornada": {
+            "ca": "https://www.aparcamentsbsm.cat/mobilitat-sostenible/",
+            "en": "https://www.aparcamentsbsm.cat/en/mobilitat-sostenible/",
+            "es": "https://www.aparcamentsbsm.cat/es/movilidad-sostenible/"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Barcelona de Serveis Municipals. B:SM",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "IMMEDIATA",
+          "update_string": "",
+          "id": "9c072eb3-2004-449f-8557-b1ec4b0e3bfa",
+          "title_translated": {
+            "ca": "Estat dels punts de recàrrega de vehicle elèctric als aparcaments B:SM de la ciutat de Barcelona",
+            "en": "Status of electric vehicle charging points at B:SM parkings in the city of Barcelona",
+            "es": "Estado de los puntos de carga de vehículo eléctrico a los aparcamientos B:SM de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-03T08:30:05.833190",
+          "author": "Gerència d'Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "B:SM",
+          "creator_user_id": "db1a09d7-8042-43b7-8d85-7a8c1ff1ffc2",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "9c072eb3-2004-449f-8557-b1ec4b0e3bfa",
+              "datastore_active": false,
+              "id": "fe51e1ca-f146-4093-9e7b-1735e611bb3f",
+              "size": null,
+              "state": "active",
+              "api_access_number": "0",
+              "api_access_number_absolute": "0",
+              "hash": "",
+              "description": "Dades relatives a la disponibilitat de places amb punt de càrrega per vehicles elèctrics a B:SM",
+              "format": "JSON",
+              "downloads": "1",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "chargepoints",
+              "created": "2018-09-26T13:39:18.784877",
+              "url": "https://api.bsmsa.eu/ext/api/bsm/chargepoints/v1/chargepoints",
+              "downloads_absolute": "2",
+              "map_visualization_res": "none",
+              "qa": "{'updated': '2018-10-04T02:04:50.738988', 'openness_score': 3, 'archival_timestamp': None, 'format': u'JSON', 'created': '2018-09-27T02:04:53.167807', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. Could not determine a file extension in the URL. Format field \"JSON\" receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "843e15cf-adaa-46d9-a883-6eca0291a030",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat elèctrica",
+              "id": "3217f198-b717-4567-80cf-a42a6e39e620",
+              "name": "Mobilitat elèctrica"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Punts recàrrega vehicle elèctric",
+              "id": "6646fe0f-9e61-49ba-806f-b16443c242c7",
+              "name": "Punts recàrrega vehicle elèctric"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Vehicles",
+              "id": "64f8342a-4609-4523-a18e-4c2e387afdfc",
+              "name": "Vehicles"
+            }
+          ],
+          "fecha_publicacion": "2018-10-03",
+          "load_type": "link_extern",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "transport",
+            "display_name": "Transport",
+            "description": "Transport",
+            "parent": {
+              "code": "entorn-urba",
+              "display_name": "Ciutat i serveis",
+              "description": "Urban environment",
+              "created": "2017-01-24T16:55:08.867299",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-ciutat-i-serveis",
+              "description_translated": {
+                "ca": "Ciutat i serveis",
+                "en": "Urban environment",
+                "es": "Ciudad y servicios"
+              },
+              "name": "entorn-urba",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-ciutat-i-serveis",
+              "groups": [],
+              "type": "organization",
+              "title": "Urban environment",
+              "revision_id": "effe3c8f-e810-4d94-b6a8-3e57540c0802",
+              "title_translated": {
+                "ca": "Ciutat i serveis",
+                "en": "Urban environment",
+                "es": "Ciudad y servicios"
+              },
+              "num_followers": 0,
+              "id": "d80eb926-faec-4e14-98b9-8c3f0d295977",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:06.928326",
+            "package_count": 51,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-transports-publics",
+            "tematica_nti": "transporte",
+            "description_translated": {
+              "ca": "Transport",
+              "en": "Transport",
+              "es": "Transporte"
+            },
+            "name": "transport",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-transports-publics",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "entorn-urba"
+              }
+            ],
+            "type": "organization",
+            "title": "Transport",
+            "revision_id": "f2d2031d-7973-42f6-8437-d6ee8ad98609",
+            "title_translated": {
+              "ca": "Transport",
+              "en": "Transport",
+              "es": "Transporte"
+            },
+            "num_followers": 0,
+            "id": "50bee103-b517-4728-838e-fc0d6b19e91f",
+            "approval_status": "approved"
+          },
+          "name": "estat-punts-recarrega-ve",
+          "url": null,
+          "notes": "Data regarding the places with electric vehicle charging points at B:SM car parks and its availability.",
+          "owner_org": "50bee103-b517-4728-838e-fc0d6b19e91f",
+          "tag": "Punts recàrrega vehicle elèctric,Mobilitat elèctrica,Vehicles",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Status of electric vehicle charging points at B:SM parkings in the city of Barcelona",
+          "revision_id": "a1d314ec-7d52-40bc-9c18-50782bda6cd7",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ParkingID",
+              "value": "Identificador de l'aparcament."
+            },
+            {
+              "key": "02.ParkingName",
+              "value": "Nom de l'aparcament."
+            },
+            {
+              "key": "03.Address",
+              "value": "Adreça postal de l'aparcament."
+            },
+            {
+              "key": "04.Lat",
+              "value": "Latitud"
+            },
+            {
+              "key": "05.Lng",
+              "value": "Longitud"
+            },
+            {
+              "key": "06.ParkingLevel",
+              "value": "Nivell de localització de l'endoll elèctric a l'aparcament."
+            },
+            {
+              "key": "07.Place",
+              "value": "Numero de plaça de l'aparcament amb endoll elèctric."
+            },
+            {
+              "key": "08.Vehicle",
+              "value": "Tipus de Vehicle (0 - cotxe, 1-motocicleta)"
+            },
+            {
+              "key": "09.ChargeBoxID",
+              "value": "Identificador del punt de recàrrega de vehicles elèctrics"
+            },
+            {
+              "key": "10.Schuko",
+              "value": "Connector Schuko disponible (0-No disponible,1-Disponible)"
+            },
+            {
+              "key": "11.Menneke",
+              "value": "Connector Menneke disponible (0-No Disponible,1-Disponible)"
+            },
+            {
+              "key": "12.Status",
+              "value": "Estat del punt de recàrrega (0-Disponible,1-Ocupat,2-Fallida,3-No Disponible,4-Reservat,5-Carregant)"
+            },
+            {
+              "key": "13.Created",
+              "value": "Data de creació del registre del punt de recàrrega"
+            },
+            {
+              "key": "14.Updated",
+              "value": "Data d'actualització del punt de recàrrega"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Tipologia de les senyals de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the signals in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de las señales de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "geolocation": "No",
+          "code": "infraestructures-tipologia-senyals",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "518b7979-760e-414c-8b8d-db9d31afb21f",
+          "title_translated": {
+            "ca": "Tipologia dels senyals verticals de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Typology of the signals in the infrastructure network of the city of Barcelona",
+            "es": "Tipología de las señales de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T16:07:31.758306",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "518b7979-760e-414c-8b8d-db9d31afb21f",
+              "datastore_active": true,
+              "id": "ef54fda5-f363-40fe-99c8-948b6a40aa1e",
+              "size": null,
+              "state": "active",
+              "api_access_number": "1",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_M_Senyals.csv",
+              "created": "2018-10-01T11:44:19.161517",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_M_Senyals.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "none",
+              "qa": "{'updated': '2018-10-04T02:05:57.607993', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-10-02T02:05:58.211995', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "eea8addf-c357-4ed7-abac-0e60c8c0b834",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Senyal",
+              "id": "907b8c7f-d15f-4bc6-a261-aad702047feb",
+              "name": "Senyal"
+            }
+          ],
+          "fecha_publicacion": "2018-10-03",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-tipologia-senyals",
+          "url": null,
+          "notes": "Typology of the signals in the infrastructure network of the city of Barcelona",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Infraestructura,Senyal,Mobilitat",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Typology of the signals in the infrastructure network of the city of Barcelona",
+          "revision_id": "6691bf80-dc78-44d8-aede-97feceff1e2c",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.Codi_Senyal",
+              "value": "Codi del tipus de senyal"
+            },
+            {
+              "key": "02.Descripció_Senyal",
+              "value": "Descripció del tipus de senyal"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Inventari dels senyals de la xarxa d'infraestructures de la ciutat de Barcelona. Els senyals verticals sense informació de barri i districte corresponen a ubicacions limítrofes de la ciutat.",
+            "en": "Inventory of the signals in the infrastructure network of the city of Barcelona. The traffic signs without neighbourhood and district information belong to bordering ubications of the city.",
+            "es": "Inventario de las señales de la red de infraestructuras de la ciudad de Barcelona. Las señales verticales sin información de barrio y districto corresponden a ubicaciones limítrofes de la ciudad."
+          },
+          "geolocation": "Yes_with_map_view",
+          "code": "infraestructures-inventari-senyals",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "e8e20e82-eef6-4185-ab8e-7c95c22695fb",
+          "title_translated": {
+            "ca": "Inventari dels senyals verticals de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Inventory of the signals in the infrastructure network of the city of Barcelona",
+            "es": "Inventario de las señales de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T15:35:40.755104",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "e8e20e82-eef6-4185-ab8e-7c95c22695fb",
+              "datastore_active": true,
+              "id": "5c7e84ab-6cc1-405c-b886-330292ff25d1",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "4",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "1",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "big",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_Inventari_Senyals.csv",
+              "created": "2018-09-25T13:24:41.215757",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_Inventari_Senyals.csv",
+              "downloads_absolute": "1",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:55.590561', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-26T02:06:03.649465', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "ea3fe66f-df08-4eb7-8f54-09fb672330ff",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Senyal",
+              "id": "907b8c7f-d15f-4bc6-a261-aad702047feb",
+              "name": "Senyal"
+            }
+          ],
+          "fecha_publicacion": "2018-10-03",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-inventari-senyals",
+          "url": null,
+          "notes": "Inventory of the signals in the infrastructure network of the city of Barcelona. The traffic signs without neighbourhood and district information belong to bordering ubications of the city.",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Infraestructura,Senyal,Mobilitat",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Inventory of the signals in the infrastructure network of the city of Barcelona",
+          "revision_id": "86a0fdf1-5e1c-495d-9d89-a49456cbdd00",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ID_Senyal",
+              "value": "Codi numèric identificador del senyal"
+            },
+            {
+              "key": "02.Codi_Senyal",
+              "value": "Codi de la tipologia del senyal. Veure relació a __[Tipologia de les senyals de la xarxa d'infraestructures de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/infraestructures-tipologia-senyals)__"
+            },
+            {
+              "key": "03.ID_Suport",
+              "value": "Codi identificador del suport del senyal. Veure relació a __[Inventari dels suports de senyals verticals de la xarxa d'infraestructures de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/infraestructures-inventari-suports)__"
+            },
+            {
+              "key": "04.Codi_Districte",
+              "value": "Codi del districte de la ubicació del senyal"
+            },
+            {
+              "key": "05.Nom_Districte",
+              "value": "Nom del districte de la ubicació del senyal"
+            },
+            {
+              "key": "06.Codi_Barri",
+              "value": "Codi del barri de la ubicació del senyal"
+            },
+            {
+              "key": "07.Nom_Barri",
+              "value": "Nom del barri de la ubicació del senyal"
+            },
+            {
+              "key": "08.X_ETRS89",
+              "value": "Coordenada X en ETRS89"
+            },
+            {
+              "key": "09.Y_ETRS89",
+              "value": "Coordenada Y en ETRS89"
+            },
+            {
+              "key": "10.Longitud",
+              "value": "Coordenada geogràfica de longitud"
+            },
+            {
+              "key": "11.Latitud",
+              "value": "Coordenada geogràfica de latitud"
+            },
+            {
+              "key": "12.Desc_Llegenda",
+              "value": "Llegenda del senyal"
+            },
+            {
+              "key": "13.Data_Alta",
+              "value": "Data d'alta a la xarxa"
+            },
+            {
+              "key": "14.Data_Baixa",
+              "value": "Data de baixa de la xarxa"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Inventari dels suports de senyals verticals de la xarxa d'infraestructures de la ciutat de Barcelona. Els suports sense informació de barri i districte corresponen a ubicacions limítrofes de la ciutat.",
+            "en": "Inventory of the supports for vertical traffic signs in the infrastructure network of the city of Barcelona. The supports without neighbourhood and district information belong to bordering ubications of the city.",
+            "es": "Inventario de los soportes de señales verticales de la red de infraestructuras de la ciudad de Barcelona.  Los soportes sin información de barrio y districto corresponden a ubicaciones limítrofes de la ciudad."
+          },
+          "geolocation": "Yes_with_map_view",
+          "code": "infraestructures-inventari-suports",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "d317dc43-f086-4060-a177-634c6db7d916",
+          "title_translated": {
+            "ca": "Inventari dels suports de senyals verticals de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Inventory of the supports for vertical traffic signs in the infrastructure network of the city of Barcelona",
+            "es": "Inventario de los soportes de señales verticales de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T15:57:56.886835",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "d317dc43-f086-4060-a177-634c6db7d916",
+              "datastore_active": true,
+              "id": "8329e9e9-1ead-4b28-acd8-8a7cd461ea7f",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "1",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "big",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_Inventari_Suports.csv",
+              "created": "2018-09-25T11:12:10.017482",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_Inventari_Suports.csv",
+              "downloads_absolute": "1",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:55.920079', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-26T02:06:04.024323', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "3e4318ff-813f-48fe-a685-251d229fa97d",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Suport",
+              "id": "80dd6c64-b14d-49c5-a905-e7af60ff4aaf",
+              "name": "Suport"
+            }
+          ],
+          "fecha_publicacion": "2018-10-03",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-inventari-suports",
+          "url": null,
+          "notes": "Inventory of the supports for vertical traffic signs in the infrastructure network of the city of Barcelona. The supports without neighbourhood and district information belong to bordering ubications of the city.",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Suport,Infraestructura,Mobilitat",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Inventory of the supports for vertical traffic signs in the infrastructure network of the city of Barcelona",
+          "revision_id": "1bebe961-0a23-4171-b709-147988ab28b1",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ID_Suport",
+              "value": "Codi identificador del suport"
+            },
+            {
+              "key": "02.Desc_Tipus_Suport",
+              "value": "Descripció del tipus de suport"
+            },
+            {
+              "key": "03.Codi_Districte",
+              "value": "Codi del districte de la ubicació del suport"
+            },
+            {
+              "key": "04.Nom_Districte",
+              "value": "Nom del districte de la ubicació del suport"
+            },
+            {
+              "key": "05.Codi_Barri",
+              "value": "Codi del barri de la ubicació del suport"
+            },
+            {
+              "key": "06.Nom_Barri",
+              "value": "Nom del barri de la ubicació del suport"
+            },
+            {
+              "key": "07.X_ETRS89",
+              "value": "Coordenada X en ETRS89"
+            },
+            {
+              "key": "08.Y_ETRS89",
+              "value": "Coordenada Y en ETRS89"
+            },
+            {
+              "key": "09.Longitud",
+              "value": "Coordenada geogràfica de longitud"
+            },
+            {
+              "key": "10.Latitud",
+              "value": "Coordenada geogràfica de latitud"
+            },
+            {
+              "key": "11.Data_Alta",
+              "value": "Data d'alta del suport"
+            },
+            {
+              "key": "12.Data_Baixa",
+              "value": "Data de baixa del suport"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Les dades provenen de les variacions d’altes (per naixement, immigració, omissió) i baixes (per defunció, emigració, inclusió indeguda o duplicitat) registrades en el Padró municipal d’habitants, durant el any.",
+            "en": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+            "es": "Los datos provienen de las variaciones de altas (por nacimiento, inmigración, omisión) y bajas (por fallecimiento, emigración, inclusión indebida o duplicidad) registradas en el Padrón municipal de habitantes, durante el año."
+          },
+          "geolocation": "No",
+          "code": "Est_Demo_Canvi_Domicili_Nacionalitat_Espanyola_Estrangera",
+          "url_tornada": {
+            "ca": "http://www.bcn.cat/estadistica/catala/dades/tdemo/index.htm",
+            "en": "http://www.bcn.cat/estadistica/castella/dades/tdemo/index.htm",
+            "es": "http://www.bcn.cat/estadistica/castella/dades/tdemo/index.htm"
+          },
+          "dataset_fields_description": "Els resultats del moviment natural -naixements i defuncions- per Barcelona, districtes i barris, són els registrats al Padró municipal, classificats pel lloc de residència. Els resultats definitius d’aquests fets demogràfics (naixements, defuncions i matrimonis), els publica l’INE i es donen per Barcelona i d’altres àmbits territorials. La font primària d’informació són les butlletes estadístiques d’inscripció per naixement, defunció i matrimoni, en el Registre Civil.\r\n\r\nCanvis de domicili (migració interna), persones residents que canvien el domicili dins del mateix municipi en el Padró municipal.",
+          "fuente": "Ajuntament de Barcelona. Departament d'Estadística i Difusió de Dades",
+          "private": false,
+          "num_tags": 12,
+          "api": "Yes",
+          "frequency": "ANUAL",
+          "update_string": "",
+          "id": "5c5c4bb6-2957-47a1-86a9-3093ef6e8efa",
+          "title_translated": {
+            "ca": "Canvi de domicili per nacionalitat espanyola o estrangera de la població per barris de la ciutat de Barcelona",
+            "en": "Changes of residence by Spanish or foreign nationality and by neighbourhoods of the city of Barcelona",
+            "es": "Cambio de domicilio por nacionalidad española o estranjera de la población por barrios  de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-09-25T08:36:01.983546",
+          "author": "Gerència Municipal",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Departament d'Estadística i Difusió de Dades",
+          "creator_user_id": "5cf9757d-3c3c-40db-9366-dbb75e28b863",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "5c5c4bb6-2957-47a1-86a9-3093ef6e8efa",
+              "datastore_active": true,
+              "id": "59af468a-4946-407c-8d95-f547f5777a98",
+              "size": null,
+              "state": "active",
+              "api_access_number": "4",
+              "api_access_number_absolute": "6",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "7",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2017_Canvis de domicili_Nacionalitat_espanyola_o_estrangera.csv",
+              "created": "2018-09-21T11:13:17.340795",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/5c5c4bb6-2957-47a1-86a9-3093ef6e8efa/resource/59af468a-4946-407c-8d95-f547f5777a98/download/2017_canvis-de-domicili_nacionalitat_espanyola_o_estrangera.csv",
+              "downloads_absolute": "8",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:04:55.716927', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-22T02:04:57.570590', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-21T09:13:17.267368",
+              "position": 0,
+              "revision_id": "d452250e-8bf5-4dd2-b173-394997107ff2",
+              "resource_type": null
+            },
+            {
+              "cache_last_updated": null,
+              "package_id": "5c5c4bb6-2957-47a1-86a9-3093ef6e8efa",
+              "datastore_active": true,
+              "id": "3ac5aa2d-ef79-4b15-93a4-ce38c34493cb",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "3",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "52",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2016_Canvis de domicili_Nacionalitat_espanyola_o_estrangera.csv",
+              "created": "2018-09-21T11:12:45.378570",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/5c5c4bb6-2957-47a1-86a9-3093ef6e8efa/resource/3ac5aa2d-ef79-4b15-93a4-ce38c34493cb/download/2016_canvis-de-domicili_nacionalitat_espanyola_o_estrangera.csv",
+              "downloads_absolute": "57",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:04:55.733737', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-22T02:04:57.602568', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-21T09:12:45.319171",
+              "position": 1,
+              "revision_id": "a8be7f07-4908-48ef-b5df-2620f5211a58",
+              "resource_type": null
+            },
+            {
+              "cache_last_updated": null,
+              "package_id": "5c5c4bb6-2957-47a1-86a9-3093ef6e8efa",
+              "datastore_active": true,
+              "id": "36cd6d93-b889-48dd-a68c-efb0318b7d43",
+              "size": null,
+              "state": "active",
+              "api_access_number": "1",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "55",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2015_Canvis de domicili_Nacionalitat_espanyola_o_estrangera.csv",
+              "created": "2018-09-21T11:12:11.373200",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/5c5c4bb6-2957-47a1-86a9-3093ef6e8efa/resource/36cd6d93-b889-48dd-a68c-efb0318b7d43/download/2015_canvis-de-domicili_nacionalitat_espanyola_o_estrangera.csv",
+              "downloads_absolute": "62",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:04:55.753636', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-22T02:04:57.634639', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-21T09:12:11.315312",
+              "position": 2,
+              "revision_id": "d452250e-8bf5-4dd2-b173-394997107ff2",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 3,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2015",
+              "id": "fd35b509-897a-48fb-b8e7-4036b6f4e17c",
+              "name": "Any 2015"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2016",
+              "id": "bf305973-29e7-4ae1-b821-ee6bdb1d9748",
+              "name": "Any 2016"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2017",
+              "id": "1fde7902-49a3-45b0-be19-a19872d01398",
+              "name": "Any 2017"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Barris",
+              "id": "c0d524aa-05ec-42cc-850e-5fc09dcc50a7",
+              "name": "Barris"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Barris Barcelona",
+              "id": "ac5486b9-62bf-4adc-9714-78c65ab80df2",
+              "name": "Barris Barcelona"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Canvis domicili",
+              "id": "4d5acbab-611f-4c03-98dd-707ef5f788d3",
+              "name": "Canvis domicili"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Dona",
+              "id": "0c8fc0a9-508f-441b-b7f3-0c132801d32b",
+              "name": "Dona"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Home",
+              "id": "e8347300-984e-4019-9393-9c48109d8c26",
+              "name": "Home"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Nacionalitat",
+              "id": "13f77593-5d9c-4d86-846f-7de3d64e3cab",
+              "name": "Nacionalitat"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Nacionalitat espanyola",
+              "id": "81d774b4-4961-4c82-881a-5e91291ea536",
+              "name": "Nacionalitat espanyola"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Nacionalitat estrangera",
+              "id": "2d43886b-c621-4524-87c5-8fbaca4e56fc",
+              "name": "Nacionalitat estrangera"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Sexe",
+              "id": "907efcf7-f99c-4de0-bd81-cdbc84e9a7cd",
+              "name": "Sexe"
+            }
+          ],
+          "fecha_publicacion": "2018-09-25",
+          "load_type": "ds_manual",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "demografia",
+            "display_name": "Demografia",
+            "description": "Demography",
+            "parent": {
+              "code": "poblacio",
+              "display_name": "Població",
+              "description": "Population",
+              "created": "2017-01-24T16:55:07.191598",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-poblacio",
+              "description_translated": {
+                "ca": "Població",
+                "en": "Population",
+                "es": "Población"
+              },
+              "name": "poblacio",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-poblacio",
+              "groups": [],
+              "type": "organization",
+              "title": "Population",
+              "revision_id": "e0b0ec67-528e-4be2-9425-f9d0bc3c0f71",
+              "title_translated": {
+                "ca": "Població",
+                "en": "Population",
+                "es": "Población"
+              },
+              "num_followers": 0,
+              "id": "3fa4d9dd-5e2c-46fa-ba43-298b6900bb5f",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.584105",
+            "package_count": 100,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-oficines-especialitzades",
+            "tematica_nti": "demografia",
+            "description_translated": {
+              "ca": "Demografia",
+              "en": "Demography",
+              "es": "Demografía"
+            },
+            "name": "demografia",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-oficines-especialitzades",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "poblacio"
+              }
+            ],
+            "type": "organization",
+            "title": "Demography",
+            "revision_id": "3fa957d0-b4a6-4ee1-b45a-f86051920bcc",
+            "title_translated": {
+              "ca": "Demografia",
+              "en": "Demography",
+              "es": "Demografía"
+            },
+            "num_followers": 0,
+            "id": "bec2fda0-7697-4c99-a635-5fd159334034",
+            "approval_status": "approved"
+          },
+          "name": "est-demo-canvi-domicili-nacionalitat-espanyol-estranger-poblacio",
+          "url": null,
+          "notes": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+          "owner_org": "bec2fda0-7697-4c99-a635-5fd159334034",
+          "tag": "Barris,Barris Barcelona,Canvis domicili,Nacionalitat,Nacionalitat espanyola,Nacionalitat estrangera,Any 2015,Any 2016,Any 2017,Sexe,Home,Dona",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "Yes",
+          "title": "Changes of residence by Spanish or foreign nationality and by neighbourhoods of the city of Barcelona",
+          "revision_id": "87ebc462-07f3-42c2-a386-b317c62a8e93",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.Any",
+              "value": "Any de les dades"
+            },
+            {
+              "key": "02.Codi_Districte",
+              "value": "Codi del districte de la ciutat de Barcelona"
+            },
+            {
+              "key": "03.Nom_Districte",
+              "value": "Nom del districte de la ciutat de Barcelona"
+            },
+            {
+              "key": "04.Codi_Barri",
+              "value": "Codi del Barri de la ciutat de Barcelona"
+            },
+            {
+              "key": "05.Moviment",
+              "value": "Barris d'alta o baixa pernacionalitat espanyola o estrangera de la ciutat de Barcelona"
+            },
+            {
+              "key": "06.Nacionalitat",
+              "value": "Nacionalitat de les persones"
+            },
+            {
+              "key": "07.Nombre",
+              "value": "Nombre de persones"
+            }
+          ]
+        },
+        {
+          "notes_translated": {
+            "ca": "Les dades provenen de les variacions d’altes (per naixement, immigració, omissió) i baixes (per defunció, emigració, inclusió indeguda o duplicitat) registrades en el Padró municipal d’habitants, durant el any.",
+            "en": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+            "es": "Los datos provienen de las variaciones de altas (por nacimiento, inmigración, omisión) y bajas (por fallecimiento, emigración, inclusión indebida o duplicidad) registradas en el Padrón municipal de habitantes, durante el año."
+          },
+          "geolocation": "No",
+          "code": "Est_Demo_Immigrants_Nacionalitat",
+          "url_tornada": {
+            "ca": "http://www.bcn.cat/estadistica/catala/dades/tdemo/index.htm",
+            "en": "http://www.bcn.cat/estadistica/angles/dades/tdemo/index.htm",
+            "es": "http://www.bcn.cat/estadistica/castella/dades/tdemo/index.htm"
+          },
+          "dataset_fields_description": "Els resultats del moviment natural -naixements i defuncions- per Barcelona, districtes i barris, són els registrats al Padró municipal, classificats pel lloc de residència. Els resultats definitius d’aquests fets demogràfics (naixements, defuncions i matrimonis), els publica l’INE i es donen per Barcelona i d’altres àmbits territorials. La font primària d’informació són les butlletes estadístiques d’inscripció per naixement, defunció i matrimoni, en el Registre Civil.\r\n\r\nImmigració\t acció per la que una persona fixa la seva residencia habitual en un territori per un període de almenys dotze mesos, havent estat prèviament resident en un altre territori.",
+          "fuente": "Ajuntament de Barcelona. Departament d'Estadística i Difusió de Dades",
+          "private": false,
+          "num_tags": 6,
+          "api": "Yes",
+          "frequency": "ANUAL",
+          "update_string": "",
+          "id": "653e65cc-9bda-4d89-9701-033998379066",
+          "title_translated": {
+            "ca": "Immigrants per nacionalitat per barris de la ciutat de Barcelona",
+            "en": "Immigrants by nationality and by neighbourhoods of the city of Barcelona",
+            "es": "Inmigrantes por nacionalidad por barrios de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-09-14T07:38:10.614628",
+          "author": "Gerència Municipal",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Departament d'Estadística i Difusió de Dades",
+          "creator_user_id": "5cf9757d-3c3c-40db-9366-dbb75e28b863",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "653e65cc-9bda-4d89-9701-033998379066",
+              "datastore_active": true,
+              "id": "88db9f63-be6a-45c2-aec9-bb02a2b6d7af",
+              "size": null,
+              "state": "active",
+              "api_access_number": "1",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "19",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2017_Immigrants_Nacionalitats.csv",
+              "created": "2018-09-10T12:05:43.850731",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/653e65cc-9bda-4d89-9701-033998379066/resource/88db9f63-be6a-45c2-aec9-bb02a2b6d7af/download/2017_immigrants_nacionalitats.csv",
+              "downloads_absolute": "41",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:02.479473', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-11T02:05:04.753897', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-10T10:05:43.798190",
+              "position": 0,
+              "revision_id": "5b5c7eb0-10f5-4d54-baeb-d1f0ece53ca1",
+              "resource_type": null
+            },
+            {
+              "cache_last_updated": null,
+              "package_id": "653e65cc-9bda-4d89-9701-033998379066",
+              "datastore_active": true,
+              "id": "09e80c64-d031-495b-8739-4775641e8761",
+              "size": null,
+              "state": "active",
+              "api_access_number": "5",
+              "api_access_number_absolute": "6",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "178",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2016_Immigrants_Nacionalitats.csv",
+              "created": "2018-09-10T12:05:12.139427",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/653e65cc-9bda-4d89-9701-033998379066/resource/09e80c64-d031-495b-8739-4775641e8761/download/2016_immigrants_nacionalitats.csv",
+              "downloads_absolute": "229",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:02.499779', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-11T02:05:04.784739', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-10T10:05:12.086974",
+              "position": 1,
+              "revision_id": "c3795b99-2139-488b-bca4-82a1c938a4ae",
+              "resource_type": null
+            },
+            {
+              "cache_last_updated": null,
+              "package_id": "653e65cc-9bda-4d89-9701-033998379066",
+              "datastore_active": true,
+              "id": "96c35c4e-bdf5-46c6-8452-24c9d1d2680c",
+              "size": null,
+              "state": "active",
+              "api_access_number": "5",
+              "api_access_number_absolute": "6",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "118",
+              "mimetype_inner": null,
+              "url_type": "upload",
+              "column_types": "",
+              "file_volum": "little",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "2015_Immigrants_Nacionalitats.csv",
+              "created": "2018-09-10T12:04:54.015745",
+              "url": "http://opendata-ajuntament.barcelona.cat/data/dataset/653e65cc-9bda-4d89-9701-033998379066/resource/96c35c4e-bdf5-46c6-8452-24c9d1d2680c/download/2015_immigrants_nacionalitats.csv",
+              "downloads_absolute": "128",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:02.515473', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-11T02:05:04.818663', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": "2018-09-10T10:04:53.962015",
+              "position": 2,
+              "revision_id": "5b5c7eb0-10f5-4d54-baeb-d1f0ece53ca1",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 3,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2015",
+              "id": "fd35b509-897a-48fb-b8e7-4036b6f4e17c",
+              "name": "Any 2015"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2016",
+              "id": "bf305973-29e7-4ae1-b821-ee6bdb1d9748",
+              "name": "Any 2016"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Any 2017",
+              "id": "1fde7902-49a3-45b0-be19-a19872d01398",
+              "name": "Any 2017"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Barris",
+              "id": "c0d524aa-05ec-42cc-850e-5fc09dcc50a7",
+              "name": "Barris"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Barris Barcelona",
+              "id": "ac5486b9-62bf-4adc-9714-78c65ab80df2",
+              "name": "Barris Barcelona"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Nacionalitat",
+              "id": "13f77593-5d9c-4d86-846f-7de3d64e3cab",
+              "name": "Nacionalitat"
+            }
+          ],
+          "fecha_publicacion": "2018-09-14",
+          "load_type": "ds_manual",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "demografia",
+            "display_name": "Demografia",
+            "description": "Demography",
+            "parent": {
+              "code": "poblacio",
+              "display_name": "Població",
+              "description": "Population",
+              "created": "2017-01-24T16:55:07.191598",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-poblacio",
+              "description_translated": {
+                "ca": "Població",
+                "en": "Population",
+                "es": "Población"
+              },
+              "name": "poblacio",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-poblacio",
+              "groups": [],
+              "type": "organization",
+              "title": "Population",
+              "revision_id": "e0b0ec67-528e-4be2-9425-f9d0bc3c0f71",
+              "title_translated": {
+                "ca": "Població",
+                "en": "Population",
+                "es": "Población"
+              },
+              "num_followers": 0,
+              "id": "3fa4d9dd-5e2c-46fa-ba43-298b6900bb5f",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.584105",
+            "package_count": 100,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-oficines-especialitzades",
+            "tematica_nti": "demografia",
+            "description_translated": {
+              "ca": "Demografia",
+              "en": "Demography",
+              "es": "Demografía"
+            },
+            "name": "demografia",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-oficines-especialitzades",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "poblacio"
+              }
+            ],
+            "type": "organization",
+            "title": "Demography",
+            "revision_id": "3fa957d0-b4a6-4ee1-b45a-f86051920bcc",
+            "title_translated": {
+              "ca": "Demografia",
+              "en": "Demography",
+              "es": "Demografía"
+            },
+            "num_followers": 0,
+            "id": "bec2fda0-7697-4c99-a635-5fd159334034",
+            "approval_status": "approved"
+          },
+          "name": "est-demo-immigrants-nacionalitat",
+          "url": null,
+          "notes": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+          "owner_org": "bec2fda0-7697-4c99-a635-5fd159334034",
+          "tag": "Barris,Barris Barcelona,Nacionalitat,Any 2015,Any 2016,Any 2017",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "Yes",
+          "title": "Immigrants by nationality and by neighbourhoods of the city of Barcelona",
+          "revision_id": "1fef90b7-18b8-440c-a1b1-2b543a0d776c",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.Any",
+              "value": "Any de les dades"
+            },
+            {
+              "key": "02.Codi_Districte",
+              "value": "Codi del districte de la ciutat de Barcelona"
+            },
+            {
+              "key": "03.Nom_Districte",
+              "value": "Nom del districte de la ciutat de Barcelona"
+            },
+            {
+              "key": "04.Codi_Barri",
+              "value": "Codi del Barri de la ciutat de Barcelona"
+            },
+            {
+              "key": "05.Nom_Barri",
+              "value": "Nom del barri de la ciutat de Barcelona"
+            },
+            {
+              "key": "06.Nacionalitat",
+              "value": "Nacionalitat de les persones"
+            },
+            {
+              "key": "07.Nombre",
+              "value": "Nombre de persones"
+            }
+          ]
+        }
+      ],
+      "search_facets": {}
+    }
+  }
+}

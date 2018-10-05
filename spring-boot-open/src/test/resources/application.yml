@@ -1,0 +1,16 @@
+server:
+  port: 9080
+  servlet:
+    contextPath: /api/v1
+
+opendata.host: http://fake-host/data/api/3/action/package_search
+
+
+spring:
+  security:
+    enabled: false
+  boot:
+    admin:
+      client:
+        enabled: false
+  profiles.active: test

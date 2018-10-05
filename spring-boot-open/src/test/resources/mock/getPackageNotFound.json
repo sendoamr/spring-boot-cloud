@@ -1,0 +1,15 @@
+{
+  "uri": "http://fake-host/data/api/3/action/package_search?code=NOT-EXISTS",
+  "method": "GET",
+  "body": {
+    "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",
+    "success": true,
+    "result": {
+      "count": 451,
+      "sort": "fecha_publicacion desc",
+      "facets": {},
+      "results": [],
+      "search_facets": {}
+    }
+  }
+}

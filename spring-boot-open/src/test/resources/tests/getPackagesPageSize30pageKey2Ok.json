@@ -1,0 +1,5 @@
+{
+  "title": "Tests get packages with page size 30 and page key 2",
+  "uri": "/api/v1/packages?pageSize=30&pageKey=2",
+  "method": "GET"
+}

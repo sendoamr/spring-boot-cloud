@@ -1,0 +1,248 @@
+{
+  "uri": "http://fake-host/data/api/3/action/package_search?code=infraestructures-inventari-inscripcions",
+  "method": "GET",
+  "body": {
+    "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",
+    "success": true,
+    "result": {
+      "count": 451,
+      "sort": "fecha_publicacion desc",
+      "facets": {},
+      "results": [
+        {
+          "notes_translated": {
+            "ca": "Inventari de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona. Les inscripcions de senyalització horitzontal sense informació de barri i districte corresponen a ubicacions limítrofes de la ciutat.",
+            "en": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+            "es": "Inventario de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona. Las inscripciones de señalización vertical sin información de barrio y districto corresponden a ubicaciones limítrofes de la ciudad."
+          },
+          "geolocation": "Yes_with_map_view",
+          "code": "infraestructures-inventari-inscripcions",
+          "url_tornada": {
+            "ca": "http://ajuntament.barcelona.cat/ecologiaurbana/ca/qui-som/arees/infraestructures-i-mobilitat",
+            "en": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+            "es": "http://ajuntament.barcelona.cat/ecologiaurbana/es/quienes-somos/areas/infraestructuras-y-movilidad"
+          },
+          "dataset_fields_description": "",
+          "fuente": "Ajuntament de Barcelona",
+          "private": false,
+          "num_tags": 3,
+          "api": "No",
+          "frequency": "SETMANAL",
+          "update_string": "OPD_006",
+          "id": "2af611c8-b51a-4503-9a3f-09967b122824",
+          "title_translated": {
+            "ca": "Inventari de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona",
+            "en": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+            "es": "Inventario de las inscripciones de señalización horizontal de la red de infraestructuras de la ciudad de Barcelona"
+          },
+          "metadata_modified": "2018-10-04T16:02:52.870298",
+          "author": "Ecologia, Urbanisme i Mobilitat",
+          "author_email": null,
+          "isopen": true,
+          "state": "active",
+          "version": "",
+          "observations": "",
+          "relationships_as_object": [],
+          "department": "Gerència adjunta de Mobilitat i Infraestructures",
+          "creator_user_id": "f4b16b79-1c06-43ee-a5e9-b3df1316fcad",
+          "type": "dataset",
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "package_id": "2af611c8-b51a-4503-9a3f-09967b122824",
+              "datastore_active": true,
+              "id": "947e353a-97cf-46a3-ad09-002420dbada5",
+              "size": null,
+              "state": "active",
+              "api_access_number": "2",
+              "api_access_number_absolute": "2",
+              "hash": "",
+              "description": "",
+              "format": "CSV",
+              "downloads": "0",
+              "mimetype_inner": null,
+              "url_type": null,
+              "column_types": "",
+              "file_volum": "middle",
+              "mimetype": null,
+              "cache_url": null,
+              "name": "Infraestructures_Inventari_Inscripcions.csv",
+              "created": "2018-09-28T12:43:13.479799",
+              "url": "http://opendata-ajuntament.barcelona.cat/resources/bcn/Infraestructures_Inventari_Inscripcions.csv",
+              "downloads_absolute": "0",
+              "map_visualization_res": "data_explorer_map",
+              "qa": "{'updated': '2018-10-04T02:05:54.130010', 'openness_score': 3, 'archival_timestamp': None, 'format': u'CSV', 'created': '2018-09-29T02:05:56.048034', 'resource_timestamp': None, 'openness_score_reason': u'This file had not been downloaded at the time of scoring it. URL extension \"csv\" relates to format \"CSV\" and receives score: 3.'}",
+              "last_modified": null,
+              "position": 0,
+              "revision_id": "1204e60b-42fe-4611-b243-9b24f5b9869f",
+              "resource_type": null
+            }
+          ],
+          "num_resources": 1,
+          "tags": [
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Infraestructura",
+              "id": "6f84e6e3-71ae-4f95-9a9e-5575525eb7a6",
+              "name": "Infraestructura"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Inscripcions",
+              "id": "99ef9ec1-e5e3-45ce-8b18-1bb35cc383f3",
+              "name": "Inscripcions"
+            },
+            {
+              "vocabulary_id": null,
+              "state": "active",
+              "display_name": "Mobilitat",
+              "id": "f0f396fb-312b-43e0-991c-0d99f49dbfcd",
+              "name": "Mobilitat"
+            }
+          ],
+          "fecha_publicacion": "2018-10-04",
+          "load_type": "link_intern_desde_font_interna",
+          "groups": [],
+          "license_id": "CC-BY-4.0",
+          "relationships_as_subject": [],
+          "license_title": "Creative Commons Attribution 4.0",
+          "organization": {
+            "code": "urbanisme-i-infraestructures",
+            "display_name": "Urbanisme i infraestructures",
+            "description": "Town planning and Infrastructures",
+            "parent": {
+              "code": "territori",
+              "display_name": "Territori",
+              "description": "Territory",
+              "created": "2017-01-24T16:55:06.680852",
+              "package_count": 0,
+              "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon2-territori",
+              "description_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "name": "territori",
+              "is_organization": true,
+              "state": "active",
+              "image_url": "bcn-icon2-territori",
+              "groups": [],
+              "type": "organization",
+              "title": "Territory",
+              "revision_id": "948d611b-5bfd-4878-a817-3bbdd28bae22",
+              "title_translated": {
+                "ca": "Territori",
+                "en": "Territory",
+                "es": "Territorio"
+              },
+              "num_followers": 0,
+              "id": "fdb223be-3adc-4145-be97-980bcfbdaa3b",
+              "approval_status": "approved"
+            },
+            "created": "2017-01-24T16:55:07.057488",
+            "package_count": 50,
+            "image_display_url": "http://opendata-ajuntament.barcelona.cat/data/uploads/group/bcn-icon-urbanisme",
+            "tematica_nti": "urbanismo-infraestructuras",
+            "description_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "name": "urbanisme-i-infraestructures",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "bcn-icon-urbanisme",
+            "groups": [
+              {
+                "capacity": "public",
+                "name": "territori"
+              }
+            ],
+            "type": "organization",
+            "title": "Town planning and Infrastructures",
+            "revision_id": "da18f861-8b29-45f5-88eb-ca5449896b24",
+            "title_translated": {
+              "ca": "Urbanisme i infraestructures",
+              "en": "Town planning and Infrastructures",
+              "es": "Urbanismo e infraestructuras"
+            },
+            "num_followers": 0,
+            "id": "9bf18787-464c-4355-b19e-697055626c77",
+            "approval_status": "approved"
+          },
+          "name": "infraestructures-inventari-inscripcions",
+          "url": null,
+          "notes": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+          "owner_org": "9bf18787-464c-4355-b19e-697055626c77",
+          "tag": "Mobilitat,Infraestructura,Inscripcions",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "historical": "No",
+          "title": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+          "revision_id": "19e75195-7914-4d67-ae8f-9bb79884a5e3",
+          "date_deactivation_informed": "No",
+          "extras": [
+            {
+              "key": "01.ID_Inscripcions",
+              "value": "Codi numèric identificador de la inscripció"
+            },
+            {
+              "key": "02.Codi_Inscripció",
+              "value": "Codi de la tipologia de la inscripció. Veure relació a __[Tipologia de les inscripcions de senyalització horitzontal de la xarxa d'infraestructures de la ciutat de Barcelona](http://opendata-ajuntament.barcelona.cat/data/ca/dataset/infraestructures-tipologia-inscripcions)__"
+            },
+            {
+              "key": "03.Codi_Districte",
+              "value": "Codi del districte de la ubicació de la inscripció"
+            },
+            {
+              "key": "04.Nom_Districte",
+              "value": "Nom del districte de la ubicació de la inscripció"
+            },
+            {
+              "key": "05.Codi_Barri",
+              "value": "Codi del barri de la ubicació de la inscripció"
+            },
+            {
+              "key": "06.Nom_Barri",
+              "value": "Nom del barri de la ubicació de la inscripció"
+            },
+            {
+              "key": "07.X_ETRS89",
+              "value": "Coordenada X en ETRS89"
+            },
+            {
+              "key": "08.Y_ETRS89",
+              "value": "Coordenada Y en ETRS89"
+            },
+            {
+              "key": "09.Longitud",
+              "value": "Coordenada geogràfica de longitud"
+            },
+            {
+              "key": "10.Latitud",
+              "value": "Coordenada geogràfica de latitud"
+            },
+            {
+              "key": "11.Desc_Marca_Vial",
+              "value": "Descripció de la marca vial"
+            },
+            {
+              "key": "12.Codi_Desc_Color",
+              "value": "Codi del color de la inscripció"
+            },
+            {
+              "key": "13.Data_Alta",
+              "value": "Data d'alta a la xarxa"
+            },
+            {
+              "key": "14.Data_Baixa",
+              "value": "Data de baixa de la xarxa"
+            }
+          ]
+        }
+      ],
+      "search_facets": {}
+    }
+  }
+}

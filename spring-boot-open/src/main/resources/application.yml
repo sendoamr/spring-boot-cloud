@@ -1,7 +1,7 @@
 server:
-    port: 9080
-    servlet:
-      context-path: /v1
+  port: 9080
+  servlet:
+    contextPath: /api/v1
 
 logging:
   level:

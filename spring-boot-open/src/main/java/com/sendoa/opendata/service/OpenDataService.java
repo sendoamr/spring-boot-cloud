@@ -2,6 +2,7 @@ package com.sendoa.opendata.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sendoa.opendata.configuration.Config;
+import com.sendoa.opendata.configuration.RestTemplateErrorHandler;
 import com.sendoa.opendata.error.ApplicationException;
 import com.sendoa.opendata.model.ResponseModel;
 import com.sendoa.opendata.model.ResultModel;
@@ -24,7 +25,7 @@ public class OpenDataService {
     private static final ObjectMapper om = new ObjectMapper();
 
     @Autowired
-    private static RestTemplate restTemplate;
+    private RestTemplate restTemplate ;
 
     @Autowired
     private Config config;
@@ -35,7 +36,7 @@ public class OpenDataService {
 
         ResultModel result = callOpenAndParse(params);
 
-        return result.getResult().getResults().get(0);
+        return result.getResult().getResults().isEmpty() ? null : result.getResult().getResults().get(0);
     }
 
     public ResponseModel findFiltered(Integer pageKey,
@@ -43,13 +44,14 @@ public class OpenDataService {
                                      String sort,
                                      String direction) {
 
-        String params = String.format(QUERY_PARAMS_EXPRESSION, pageSize, (pageKey - 1 ) * pageSize, sort, direction);
+        String params = String.format(QUERY_PARAMS_EXPRESSION, pageSize, pageKey == 1 ? 0 : (pageSize * (pageKey - 1)) -1, sort, direction);
 
         ResultModel result = callOpenAndParse(params);
 
         return new ResponseModel(result.getResult().getResults(), aPaginationBuilder()
                 .withPageKey(pageKey)
                 .withPageSize(pageSize)
+                .withSort(sort, direction)
                 .withTotalElements(result.getResult().getCount()).build());
     }
 

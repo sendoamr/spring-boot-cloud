@@ -1,0 +1,79 @@
+{
+  "status": 206,
+  "body": {
+    "data": [
+      {
+        "code": "infraestructures-inventari-inscripcions",
+        "description": "Inventory of the horizontal inscriptions in the infrastructure network of the city of Barcelona. The horizontal inscriptions without neighbourhood and district information belong to bordering ubications of the city.",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "infraestructures-inventari-pas-vianants",
+        "description": "Inventory of the pedestrian crossings in the infrastructure network of the city of Barcelona. The pedestrian crossings without neighbourhood and district information belong to bordering ubications of the city.",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "infraestructures-tipologia-inscripcions",
+        "description": "Typology of the horizontal inscriptions in the infrastructure network of the city of Barcelona",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "infraestructures-tipologia-pas-vianants",
+        "description": "Typology of the pedestrian crossings in the infrastructure network of the city of Barcelona",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "Estat_Punts_Recarrega_VE",
+        "description": "Data regarding the places with electric vehicle charging points at B:SM car parks and its availability.",
+        "url": "https://www.aparcamentsbsm.cat/en/mobilitat-sostenible/",
+        "organization": "Transport"
+      },
+      {
+        "code": "infraestructures-tipologia-senyals",
+        "description": "Typology of the signals in the infrastructure network of the city of Barcelona",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "infraestructures-inventari-senyals",
+        "description": "Inventory of the signals in the infrastructure network of the city of Barcelona. The traffic signs without neighbourhood and district information belong to bordering ubications of the city.",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "infraestructures-inventari-suports",
+        "description": "Inventory of the supports for vertical traffic signs in the infrastructure network of the city of Barcelona. The supports without neighbourhood and district information belong to bordering ubications of the city.",
+        "url": "http://ajuntament.barcelona.cat/ecologiaurbana/en/about-us/areas/infrastructure-and-mobility",
+        "organization": "Town planning and Infrastructures"
+      },
+      {
+        "code": "Est_Demo_Canvi_Domicili_Nacionalitat_Espanyola_Estrangera",
+        "description": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+        "url": "http://www.bcn.cat/estadistica/castella/dades/tdemo/index.htm",
+        "organization": "Demography"
+      },
+      {
+        "code": "Est_Demo_Immigrants_Nacionalitat",
+        "description": "The data origins from the difference between the registers (because of birth, immigration or omission) and the quitting (because of decease, emigration, undue inclusion or duplicity) accounted for in the population register of the city of Barcelona for a year.",
+        "url": "http://www.bcn.cat/estadistica/angles/dades/tdemo/index.htm",
+        "organization": "Demography"
+      }
+    ],
+    "pagination": {
+      "page": 3,
+      "numPages": 22,
+      "pageSize": 20,
+      "total": 451,
+      "links": {
+        "firstPage": "/api/v1/packages?pageKey=1&pageSize=20&sort=code&direction=asc",
+        "lastPage": "/api/v1/packages?pageKey=22&pageSize=20&sort=code&direction=asc",
+        "next": "/api/v1/packages?pageKey=4&pageSize=20&sort=code&direction=asc",
+        "prev": "/api/v1/packages?pageKey=2&pageSize=20&sort=code&direction=asc"
+      }
+    }
+  }
+}
