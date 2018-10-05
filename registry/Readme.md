@@ -1,7 +1,10 @@
-#Start local registry
+## Start local registry
+```bash
 docker run -d -p 5000:5000 --restart=always --name registry registry:2
-
-# Build tag and push Java image to registry 
+```
+## Build tag and push Java image to registry 
+```bash
 docker build -t "opendata_java" .
 docker tag opendata_java localhost:5000/java
 docker push localhost:5000/java
+```
