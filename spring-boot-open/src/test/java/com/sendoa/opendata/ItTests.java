@@ -101,6 +101,7 @@ public class ItTests {
                 .expectStatus().isEqualTo(responseData.getStatus())
                 .expectBody().returnResult().getResponseBody();
 
+        //TODO check all stream responses in the case of reactive services
         //If response expected body is compete check it
         if (responseData.getBody() != null) {
             checkResponse(om.writeValueAsString(responseData.getBody()), new String(response, StandardCharsets.UTF_8));

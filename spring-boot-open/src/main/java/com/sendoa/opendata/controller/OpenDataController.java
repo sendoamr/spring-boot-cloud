@@ -46,7 +46,7 @@ public class OpenDataController {
 
     }
 
-    @GetMapping(value = "/all", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @GetMapping(value = "/all", produces = "application/stream+json")
     public Flux<Model> findAll() {
         logger.debug("Get all open data packages");
         return Flux.fromIterable(service.findAll());
