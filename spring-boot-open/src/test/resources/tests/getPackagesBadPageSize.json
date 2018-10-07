@@ -1,5 +1,5 @@
 {
-  "title": "Tests get packages with sort fields",
+  "title": "Tests get packages with bad page size",
   "uri": "/api/v1/packages?pageSize=31",
   "method": "GET"
 }

@@ -69,10 +69,10 @@
       "pageSize": 10,
       "total": 451,
       "links": {
-        "firstPage": "/api/v1/packages?pageKey=1&pageSize=10&sort=organization&direction=desc",
-        "lastPage": "/api/v1/packages?pageKey=45&pageSize=10&sort=organization&direction=desc",
-        "next": "/api/v1/packages?pageKey=2&pageSize=10&sort=organization&direction=desc",
-        "prev": "/api/v1/packages?pageKey=1&pageSize=10&sort=organization&direction=desc"
+        "firstPage": "/api/v1/packages?pageKey=1&pageSize=10&sort=description&direction=desc",
+        "lastPage": "/api/v1/packages?pageKey=45&pageSize=10&sort=description&direction=desc",
+        "next": "/api/v1/packages?pageKey=2&pageSize=10&sort=description&direction=desc",
+        "prev": "/api/v1/packages?pageKey=1&pageSize=10&sort=description&direction=desc"
       }
     }
   }

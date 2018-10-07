@@ -1,4 +1,4 @@
-package com.sendoa.opendata.builders;
+package com.sendoa.opendata.builder;
 
 import com.sendoa.opendata.model.response.Links;
 import com.sendoa.opendata.model.response.Pagination;
@@ -23,7 +23,7 @@ public final class PaginationBuilder {
     }
 
     public PaginationBuilder withSort(String sort, String direction) {
-        this.queryParms = String.format("&sort=%s&direction=%s", sort, direction);
+        this.queryParms = "".equals(sort) ? "" : String.format("&sort=%s&direction=%s", sort, direction);
         return this;
     }
 

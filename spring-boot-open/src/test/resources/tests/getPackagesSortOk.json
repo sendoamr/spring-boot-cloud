@@ -1,5 +1,5 @@
 {
   "title": "Tests get packages with sort fields",
-  "uri": "/api/v1/packages?sort=organization&direction=desc",
+  "uri": "/api/v1/packages?sort=description&direction=desc",
   "method": "GET"
 }

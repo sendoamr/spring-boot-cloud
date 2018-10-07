@@ -35,3 +35,4 @@ mvn test
  - Create a experimental Reactive sandbox service with persistence
  - Integrate eureka, zuul and config server
  - Create profiling for diferent environments
+ - Create a demo webapp with reactive client

@@ -1,5 +1,5 @@
 {
-  "title": "Tests get packages without filter and Ok response",
+  "title": "Tests get package not found",
   "uri": "/api/v1/packages/NOT-EXISTS",
   "method": "GET"
 }

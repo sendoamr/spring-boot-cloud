@@ -1,0 +1,5 @@
+{
+  "title": "Tests get packages with bad direction",
+  "uri": "/api/v1/packages?direction=bad",
+  "method": "GET"
+}

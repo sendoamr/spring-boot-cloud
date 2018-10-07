@@ -1,5 +1,5 @@
 {
-  "uri": "http://fake-host/data/api/3/action/package_search?rows=10&start=0&sort=organization%20desc",
+  "uri": "http://fake-host/data/api/3/action/package_search?rows=10&start=0&sort=notes_translated.en%20desc",
   "method": "GET",
   "body": {
     "help": "http://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=package_search",

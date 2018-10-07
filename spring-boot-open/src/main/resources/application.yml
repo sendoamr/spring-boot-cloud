@@ -5,8 +5,8 @@ server:
 
 logging:
   level:
-    org.springframework:
-    o.s.web.client.RestTemplate : ERROR
+    org.springframework: DEBUG
+    o.s.web.client.RestTemplate : DEBUG
     com.sendoa.opendata: DEBUG
   file: logs/application.log
 
@@ -40,8 +40,6 @@ management:
     flyway:
       enable: false
     jolokia:
-      enable: false
-    liquibase:
       enable: false
   endpoints:
     web:

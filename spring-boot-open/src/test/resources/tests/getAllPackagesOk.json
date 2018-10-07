@@ -1,0 +1,5 @@
+{
+  "title": "Tests get all packages reactive",
+  "uri": "/api/v1/packages/all",
+  "method": "GET"
+}

@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "fd831bba-8b08-48e1-ac7f-0332a48f4236",
+		"_postman_id": "31ba450d-58ee-4c2b-a771-7c11f817235d",
 		"name": "Sprin-boot-opendata",
 		"description": "POstman collection to opendata packages service",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -11,7 +11,10 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "{{url}}/api/v1/packages",
 					"host": [
@@ -32,7 +35,10 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "{{url}}/api/v1/packages?pageSize=15&pageKey=2&sort=organization&direction=desc",
 					"host": [
@@ -67,11 +73,39 @@
 			"response": []
 		},
 		{
+			"name": "GET all packages reactive",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/packages/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"packages",
+						"all"
+					]
+				},
+				"description": "Get packages without filters"
+			},
+			"response": []
+		},
+		{
 			"name": "GET one package",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "{{url}}/api/v1/packages/packageCode",
 					"host": [

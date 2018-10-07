@@ -32,4 +32,6 @@ Posible query params
 
 GET /v1/packages/{id} - Get One package data
 
+GET /v1/packages/all - Get all packages reactive
+
 ```
