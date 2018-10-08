@@ -5,9 +5,9 @@ server:
 
 logging:
   level:
-    org.springframework: DEBUG
-    o.s.web.client.RestTemplate : DEBUG
-    com.sendoa.opendata: DEBUG
+    org.springframework: ERROR
+    o.s.web.client.RestTemplate : INFO
+    com.sendoa.opendata: INFO
   file: logs/application.log
 
 opendata.host: http://opendata-ajuntament.barcelona.cat/data/api/3/action/package_search
