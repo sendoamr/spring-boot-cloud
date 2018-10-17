@@ -6,7 +6,7 @@ server:
 logging:
   level:
     org.springframework: ERROR
-    o.s.web.client.RestTemplate : INFO
+    o.s.web.client.RestTemplate: INFO
     com.sendoa.opendata: INFO
   file: logs/application.log
 
@@ -52,6 +52,8 @@ management:
         enabled: false
 
 spring:
+  application:
+    name: sendoaboot
   security:
     ignored: /**
     enabled: false
@@ -62,11 +64,11 @@ spring:
         password: admin
         enabled: true
         autoRegistration: true
-        url: http://localhost:9001
+        url: http://loclahost:9001
         instance:
           name: 'Spring opendata sendoa'
-          service-url: http://localhost:9080/
-          service-base-url: http://localhost:9080/
+          service-url: http://127.0.0.1:9080/
+          service-base-url: http://127.0.0.1:9080/
 
   profiles.active: dev
   output:
@@ -80,3 +82,14 @@ spring:
     web:
       server:
         auto-time-requests: true
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+    leaseRenewalIntervalInSeconds: 1
+  client:
+    enabled: true
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9002/eureka

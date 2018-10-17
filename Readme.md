@@ -1,6 +1,7 @@
 ## Modules
 - spring-boot-open: principal microservice to get packages data
-- spring-boot-admin: tool to mangment the microservices
+- spring-boot-admin: tool to managment the microservices
+- spring-boot-eureka: tool to managment the microservices
 - sonar-analytics: docker images to launch docker and send info of jacoco of microservices
 - registry to pull and push docker images
 - Postman: Collection for call to service
@@ -10,9 +11,10 @@
 ```
 mvn clean install
 ```
-Launch first spring boot admin running in <http://localhost:9001> admin/admin
+Launch first spring boot admin running in <http://localhost:9001> admin/admin and eureka running in <http://localhost:9002>
 ```
 java -jar spring-boot-admin/target/spring-boot-admin-1.0.0.jar
+java -jar spring-boot-admin/target/spring-boot-eureka-1.0.0.jar
 ```
 Launch microservice and it should register data in admin at the moment
 ```
@@ -32,9 +34,9 @@ mvn test
 ```
 
 ## Next steps
- - Create a experimental Reactive sandbox service with persistence
- - Integrate eureka, zuul and config server
- - Create profiling for diferent environments
+ - Create profiling for diferent environments (local, local-cloud, ...)
+ - Create a new experimental Reactive sandbox service with persistence
+ - Integrate zuul and config server
  - Processing logs with elk
  - Create a demo webapp with reactive client
 

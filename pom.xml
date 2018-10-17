@@ -140,5 +140,6 @@
   <modules>
     <module>spring-boot-open</module>
     <module>spring-boot-admin</module>
+    <module>spring-boot-eureka</module>
   </modules>
 </project>

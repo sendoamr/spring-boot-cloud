@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.*;
 import com.sendoa.opendata.model.Model;
 import reactor.core.publisher.Flux;
 
-import commons.model.validation.ValidEnum;
 import javax.validation.Valid;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
 
 @RestController
 @RequestMapping("/api/v1/packages")
@@ -31,8 +31,8 @@ public class OpenDataController {
     @GetMapping(produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<ResponseModel> findPackages(@RequestParam(defaultValue = "1") @Valid @Min(1) Integer pageKey,
                                      @RequestParam(defaultValue = "10") @Valid @Min(1) @Max(30) Integer pageSize,
-                                     @RequestParam(defaultValue = "") @Valid @ValidEnum(allowedValues = {"code", "description"}, message = "Invalid value: must be code or description") String sort,
-                                     @RequestParam(defaultValue = "asc") @Valid @ValidEnum(allowedValues = {"asc", "desc"}, message = "Invalid value: must be asc or desc") String direction) {
+                                     @RequestParam(defaultValue = "") @Valid @Pattern(regexp = "(|code|description)", message = "Invalid value: must be code or description") String sort,
+                                     @RequestParam(defaultValue = "asc") @Valid @Pattern(regexp = "(|asc|desc)", message = "Invalid value: must be asc or desc") String direction) {
         logger.debug("Get open data with: pageKey {}, pageSize {}, sort {} and direction {}", pageKey, pageSize, sort, direction);
         return new ResponseEntity<>(service.findFiltered(pageKey, pageSize, sort, direction), HttpStatus.PARTIAL_CONTENT);
 

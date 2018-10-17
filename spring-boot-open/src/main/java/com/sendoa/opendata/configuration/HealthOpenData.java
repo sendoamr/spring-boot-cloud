@@ -16,6 +16,9 @@ public class HealthOpenData implements HealthIndicator {
     @Autowired
     private Config config;
 
+    @Autowired
+    private RestTemplate restTemplate;
+
     @Override
     public Health health() {
         int errorCode = checkOpendata();
@@ -26,8 +29,6 @@ public class HealthOpenData implements HealthIndicator {
     }
 
     private int checkOpendata() {
-
-        final RestTemplate restTemplate = new RestTemplate();
         final URI uri = UriComponentsBuilder.fromUriString(config.getHost())
                 .build().normalize().toUri();
 

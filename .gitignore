@@ -1,3 +1,7 @@
 target/
 spring-boot-admin/target/
 logs/
+spring-boot-admin/.idea
+spring-boot-admin/spring-boot-admin.iml
+spring-boot-eureka/target/
+spring-boot-eureka/.idea/

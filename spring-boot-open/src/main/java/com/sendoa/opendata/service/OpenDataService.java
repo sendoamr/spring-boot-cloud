@@ -30,7 +30,7 @@ public class OpenDataService {
     private static final ObjectMapper om = new ObjectMapper();
 
     @Autowired
-    private RestTemplate restTemplate ;
+    private RestTemplate restTemplate;
 
     @Autowired
     private Config config;
@@ -77,7 +77,7 @@ public class OpenDataService {
         try {
             result = om.readValue(restResponse, ResultModel.class);
         } catch (IOException e) {
-            logger.error("Problems parsing json body of opendata");
+            logger.error("Problems parsing json body of opendata", e);
             throw new ApplicationException("Problems parsing json body");
         }
         return result;
