@@ -64,7 +64,7 @@ spring:
         password: admin
         enabled: true
         autoRegistration: true
-        url: http://loclahost:9001
+        url: http://localhost:9001
         instance:
           name: 'Spring opendata sendoa'
           service-url: http://127.0.0.1:9080/

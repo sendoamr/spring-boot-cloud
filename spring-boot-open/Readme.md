@@ -35,3 +35,6 @@ GET /v1/packages/{id} - Get One package data
 GET /v1/packages/all - Get all packages reactive
 
 ```
+
+## Swagger 2 json definition
+    /v2/api-docs

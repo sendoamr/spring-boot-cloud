@@ -33,6 +33,9 @@ docker run localhost:5000/spring-boot-open
 mvn test
 ```
 
+## Swagger documentation and tools
+The service expose directly the swagger 2.0 in <http://localhost:9080/v2/api-docs/> and you generate more option with swagger-tools
+
 ## Next steps
  - Create profiling for diferent environments (local, local-cloud, ...)
  - Create a new experimental Reactive sandbox service with persistence
