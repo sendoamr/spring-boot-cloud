@@ -7,7 +7,7 @@
     "bootprint": "^1.0.2",
     "bootprint-openapi": "^1.1.0",
     "swagger2-postman-generator": "^2.1.1",
-    "snyk": "^1.179.1"
+    "snyk": "^1.234.0"
   },
   "scripts": {
     "main": "node main.js",
