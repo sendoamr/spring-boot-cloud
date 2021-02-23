@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8,6 +8,12 @@ patch:
         patched: '2019-06-20T22:12:51.833Z'
     - bootprint > customize-watch > customize > lodash:
         patched: '2019-06-20T22:12:51.833Z'
+    - bootprint > customize-engine-uglify > lodash:
+        patched: '2021-02-23T22:22:51.380Z'
+    - bootprint > get-promise > lodash:
+        patched: '2021-02-23T22:22:51.380Z'
+    - bootprint > customize-watch > customize > lodash:
+        patched: '2021-02-23T22:22:51.380Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - snyk > proxy-agent > https-proxy-agent:
         patched: '2019-10-10T12:56:36.548Z'
