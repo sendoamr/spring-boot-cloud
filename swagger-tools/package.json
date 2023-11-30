@@ -5,7 +5,7 @@
   "author": "Sendoa Moronta",
   "dependencies": {
     "bootprint": "^1.0.2",
-    "bootprint-openapi": "^1.1.0",
+    "bootprint-openapi": "^4.0.0",
     "swagger2-postman-generator": "^2.1.1",
     "snyk": "^1.234.0"
   },
